@@ -12,5 +12,8 @@ Kumpulan catatan pribadi tentang hal-hal yang pernah saya kerjakan, pelajari, at
 
 ---
 
-## 📁 Struktur Direktori
+## 📁 Golang
+go mod init blog
+go get -u github.com/go-sql-driver/mysql
+go run main.go
 
