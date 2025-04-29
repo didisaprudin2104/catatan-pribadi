@@ -17,3 +17,6 @@ go mod init blog
 go get -u github.com/go-sql-driver/mysql
 go run main.go
 
+## 📁 Mobile dengan Ionic
+https://ionicframework.com/docs
+
