@@ -17,6 +17,6 @@ go mod init blog
 go get -u github.com/go-sql-driver/mysql
 go run main.go
 
-## 📁 Mobile dengan Ionic
+## 📁 Mobile dengan Ionic atau dengan capasitorJS laravel
 https://ionicframework.com/docs
 
