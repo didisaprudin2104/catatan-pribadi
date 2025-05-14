@@ -20,3 +20,6 @@ go run main.go
 ## 📁 Mobile dengan Ionic atau dengan capasitorJS laravel
 https://ionicframework.com/docs
 
+## 📁 ONO
+https://s.id/free-owp-ebooks
+
