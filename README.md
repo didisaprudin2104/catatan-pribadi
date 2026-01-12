@@ -23,3 +23,21 @@ https://ionicframework.com/docs
 ## 📁 ONO
 https://s.id/free-owp-ebooks
 
+##.htaccess Laravel
+<IfModule mod_rewrite.c>  
+RewriteEngine On  
+RewriteBase /  
+#Loading PHP as if is public/ from /  
+RewriteRule ^$ public/index.php [L]  
+#Loading page as if is public/ from /  
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]  
+  
+RewriteRule (^\.|/\.) - [F]  
+  
+<FilesMatch "^(\.env\.example|artisan|package\.json|README\.md|readme\.md|composer\.json|composer\.lock|LICENSE|spark|\.env|\.gitignore|builds|phpunit\.xml\.dst|preload\.php)$">
+        Require all denied
+    </FilesMatch>
+
+  
+</IfModule>
+
